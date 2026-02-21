@@ -44,7 +44,7 @@ This project automates resume-job matching using semantic similarity scoring to 
 
 # 3️⃣ Solution Approach:
 
-The system works in 5 main stages:
+The system works in  4 main stages:
 
  1️⃣ Data Preprocessing:
 
@@ -76,7 +76,8 @@ Sort jobs in descending order
 
 Select top 5 matches
 
-  5️⃣ Tech Stack:
+
+ # 4️⃣ Tech Stack:
     
 Component	    Technology
 
@@ -92,7 +93,7 @@ Similarity	    Cosine Similarity
 Language	    Python
 
 
-   6️⃣ Project Structure:
+  # 5️⃣  Project Structure:
 
 Resume_Matcher/
 
@@ -106,14 +107,14 @@ Resume_Matcher/
 
 └── README.md
 
-   7️⃣ How to Run the Project
+# 6️⃣ How to Run the Project:
 
 Run Streamlit App
 
 streamlit run app.py
 
 
-  8️⃣ Example Workflow
+#  7️⃣ Example Workflow:
 
 Input Resume:
 
@@ -133,7 +134,7 @@ Mechanical Engineer     Relocate	      54%
 
 Higher score = stronger semantic similarity.
 
-  9️⃣ Key Features
+# 8️⃣ Key Features:   
 
 Resume text input
 
@@ -149,7 +150,7 @@ Clean interactive UI
 
 Real job dataset (18K+ entries)
 
-  🔟 Core ML Concept Used
+# 9️⃣ Core ML Concept Used:
 
 Cosine Similarity
 
@@ -163,26 +164,26 @@ Value range: 0 to 1
 
 Match Score = Cosine Similarity × 100
 
- 1️⃣1️⃣  Innovation Highlights
+# 🔟 Innovation Highlights:
 
-Uses transformer-based semantic embeddings
+-> Uses transformer-based semantic embeddings
 
-Handles unstructured resume text
+-> Handles unstructured resume text
 
-Real-time ranking system
+-> Real-time ranking system
 
-Deployable ML application
+-> Deployable ML application
 
-End-to-end pipeline from data preprocessing to UI
+-> End-to-end pipeline from data preprocessing to UI
 
-  1️⃣2️⃣ Future Improvements
+# 1️⃣1️⃣ Future Improvements:
 
-Skill gap analysis
+-> Skill gap analysis
 
-Skill highlighting
+-> Skill highlighting
 
-Recruiter dashboard
+-> Recruiter dashboard
 
-Multi-resume comparison
+-> Multi-resume comparison
 
-Deployment on cloud (AWS/Render)
+-> Deployment on cloud (AWS/Render)
