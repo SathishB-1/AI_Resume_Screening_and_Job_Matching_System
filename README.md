@@ -6,29 +6,29 @@ Built using Streamlit, Sentence-BERT, spaCy, and Scikit-learn.
 
 # 1️⃣ Project Overview:
 
--> The AI Resume Screening & Job Matching System is a machine learning application that automatically ranks job listings based on how closely they match a candidate’s resume.
+The AI Resume Screening & Job Matching System is a machine learning application that automatically ranks job listings based on how closely they match a candidate’s resume.
 
 The system:
 
-Processes unstructured resume text
+-> Processes unstructured resume text
 
-Converts text into semantic embeddings using Sentence Transformers
+-> Converts text into semantic embeddings using Sentence Transformers
 
-Computes cosine similarity between resume and job descriptions
+-> Computes cosine similarity between resume and job descriptions
 
-Ranks jobs based on relevance score
+-> Ranks jobs based on relevance score
 
-Displays top matching jobs in an interactive Streamlit web interface
+-> Displays top matching jobs in an interactive Streamlit web interface
 
-This project demonstrates practical use of:
+-> This project demonstrates practical use of:
 
-Natural Language Processing (NLP)
+-> Natural Language Processing (NLP)
 
-Transformer-based embeddings
+-> Transformer-based embeddings
 
-Information retrieval techniques
+-> Information retrieval techniques
 
-Real-world recruitment automation
+-> Real-world recruitment automation
 
 # 2️⃣ Problem Statement:
 
@@ -66,9 +66,7 @@ Convert resume into embedding vector
 
 Compute cosine similarity between:
 
-Resume embedding
-and
-All job embeddings
+Resume embedding and All job embeddings
 
   4️⃣ Ranking:
 
@@ -78,17 +76,7 @@ Sort jobs in descending order
 
 Select top 5 matches
 
-  5️⃣ User Interface (Streamlit):
-
-Resume text input or PDF upload
-
-Real-time matching
-
-Display match percentage
-
-Show top job recommendations
-
-  4️⃣ Tech Stack:
+  5️⃣ Tech Stack:
     
 Component	    Technology
 
@@ -104,7 +92,7 @@ Similarity	    Cosine Similarity
 Language	    Python
 
 
-   5️⃣ Project Structure:
+   6️⃣ Project Structure:
 
 Resume_Matcher/
 
@@ -118,14 +106,14 @@ Resume_Matcher/
 
 └── README.md
 
-   6️⃣ How to Run the Project
+   7️⃣ How to Run the Project
 
 Run Streamlit App
 
 streamlit run app.py
 
 
-  7️⃣ Example Workflow
+  8️⃣ Example Workflow
 
 Input Resume:
 
@@ -145,7 +133,7 @@ Mechanical Engineer     Relocate	      54%
 
 Higher score = stronger semantic similarity.
 
-  8️⃣ Key Features
+  9️⃣ Key Features
 
 Resume text input
 
@@ -161,7 +149,7 @@ Clean interactive UI
 
 Real job dataset (18K+ entries)
 
-  9️⃣ Core ML Concept Used
+  🔟 Core ML Concept Used
 
 Cosine Similarity
 
@@ -175,7 +163,7 @@ Value range: 0 to 1
 
 Match Score = Cosine Similarity × 100
 
-  🔟 Innovation Highlights
+ 1️⃣1️⃣  Innovation Highlights
 
 Uses transformer-based semantic embeddings
 
@@ -187,7 +175,7 @@ Deployable ML application
 
 End-to-end pipeline from data preprocessing to UI
 
-  1️⃣1️⃣ Future Improvements
+  1️⃣2️⃣ Future Improvements
 
 Skill gap analysis
 
