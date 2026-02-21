@@ -166,7 +166,7 @@ Match Score = Cosine Similarity × 100
 
 # 🔟 User Interface:
 
-![img alt]()
+![img alt](https://github.com/SathishB-1/AI_Resume_Screening_and_Job_Matching_System/blob/0b892911016a4b1193f7e46f21ac14ad0e3136d6/Screenshot%202026-02-21%20192312.png)
 
 # 1️⃣1️⃣ Innovation Highlights:
 
