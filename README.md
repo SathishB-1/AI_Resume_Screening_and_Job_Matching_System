@@ -164,7 +164,11 @@ Value range: 0 to 1
 
 Match Score = Cosine Similarity × 100
 
-# 🔟 Innovation Highlights:
+# 🔟 User Interface:
+
+![img alt]()
+
+# 1️⃣1️⃣ Innovation Highlights:
 
 -> Uses transformer-based semantic embeddings
 
@@ -176,7 +180,7 @@ Match Score = Cosine Similarity × 100
 
 -> End-to-end pipeline from data preprocessing to UI
 
-# 1️⃣1️⃣ Future Improvements:
+# 1️⃣2️⃣ Future Improvements:
 
 -> Skill gap analysis
 
