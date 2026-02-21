@@ -6,7 +6,7 @@ Built using Streamlit, Sentence-BERT, spaCy, and Scikit-learn.
 
 # 1️⃣ Project Overview:
 
-The AI Resume Screening & Job Matching System is a machine learning application that automatically ranks job listings based on how closely they match a candidate’s resume.
+-> The AI Resume Screening & Job Matching System is a machine learning application that automatically ranks job listings based on how closely they match a candidate’s resume.
 
 The system:
 
